@@ -4,66 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1>Малахов Артур</h1> 
-   <img src="https://sun9-12.userapi.com/impg/4qBEXwkV5VmcEXERKTps3STaa9_KziTkISoWTg/JYKqARggw-c.jpg?size=768x1024&quality=95&sign=6af061db027f1364d5b3b017bb9da816&type=album" width="300" alt="avatar">
-  
-  <p>Я управляющий в сети магазинов <STRONG>"ЭЛЕКТРИК"</STRONG><br> и
-  делаю первые шаги в програморование в школе <STRONG>Result School.</STRONG></p>
-<p>Планирую начать <em>путишествовать</em>, занимаюсь <em>спортом</em> и изучаю <em>програмирование.</em> </p>
-<h2>Мои хобби</h2>
-<ol>
-  <li>Резьба по дереву</li>
-  <li>Электрика</li>
-  <li>Програмирование</li>
-</ol>
-<a href="https://vk.com/arturik_26" target="_blank">vk.com</a><br>
-<a href="@ArturMalakhow" target="_blank">telgram</a>
+        <div class="container">
+                <img src="https://sun9-12.userapi.com/impg/4qBEXwkV5VmcEXERKTps3STaa9_KziTkISoWTg/JYKqARggw-c.jpg?size=768x1024&quality=95&sign=6af061db027f1364d5b3b017bb9da816&type=album" alt="avatar">
+                
+            <div class="info">
+                <h1>Малахов Артур</h1> 
+                <p>Я управляющий в сети магазинов <STRONG>"ЭЛЕКТРИК"</STRONG><br> и
+                делаю первые шаги в програморование в школе <STRONG>Result School.</STRONG></p>
+                <p>Планирую начать <em>путишествовать</em>, занимаюсь <em>спортом</em> и изучаю <em>програмирование.</em> </p>
+                
+            
 
- <table>
-        <thead>
-            <tr>
-                <th>Название работы</th>
-                <th>Должность</th>
-                <th>Период работы</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>ИП Беликова Т.М.</td>
-                <td>Продавец</td>
-                <td>2014-2018</td>
-            </tr>
-            <tr>
-                <td>ИП Сальников В.Г.</td>
-                <td>Менеджер</td>
-                <td>2018-2019</td>
-            </tr>
-            <tr>
-                <td>ИП Сальников В.Г.</td>
-                <td>Управляющий</td>
-                <td>2019-по н.вр.</td>
-            </tr>
-        </tbody>
-    </table>
-    <h2>Связаться со мной</h2>
-    <div>
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Введите имя">
-    </div><br>
+                <div class="links">
+                    <h4>Список социальных сетей:</h4>
+                    <a href="https://vk.com/arturik_26" target="_blank">vk.com</a>|
+                    <a href="@ArturMalakhow" target="_blank">telgram</a>
+                </div>
+            </div>
+        </div> 
+        <div class="hobby bg-yellow">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+            <li>Резьба по дереву</li>
+            <li>Электрика</li>
+            <li>Програмирование</li>
+        </ol>
+        </div>
+        <div class="hh bg-red" >
+            <table class="table">
+               <!-- <thead>
+                     <tr>
+                        <th class="th">Название работы</th>
+                        <th>Должность</th>
+                        <th>Период работы</th>
+                    
+                </thead></tr> -->
+                <tbody>
+                    <tr>
+                        <td>ИП Беликова Т.М.</td>
+                        <td>Продавец</td>
+                        <td>2014-2018</td>
+                    </tr>
+                    <tr>
+                        <td>ИП Сальников В.Г.</td>
+                        <td>Менеджер</td>
+                        <td>2018-2019</td>
+                    </tr>
+                    <tr>
+                        <td>ИП Сальников В.Г.</td>
+                        <td>Управляющий</td>
+                        <td>2019-по н.вр.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <div>
-        <label for="email">Ваш email:</label>
-        <input type="email" id="email" placeholder="Введите email">
-    </div><br>
 
-    <div>
-        <label for="messenge">Ваше сообщение:</label><br>
-        <textarea name="messenge" id="messenge" cols="31" rows="5">Введите сообщение</textarea>
-    </div><br>
+        <div class="plan">
+            <h2>Мои планы</h2>
 
-    <button>Отправить</button>
+            <ul class="link-list">
+                <li>
+                    <a href="#">Получение профессии Frontend разработчика</a>
+                </li>
+                <li>
+                    <a href="#">Все курсы</a>
+                </li>
+            </ul>
+        </div>
 
-</body>
+        <form action="/" class="form">
+
+            <h2>Связаться со мной</h2>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="messenge">Ваше сообщение:</label>
+                <textarea name="messenge" id="messenge" cols="31" rows="5">Введите сообщение</textarea>
+            </div><br>
+            
+            <button class="btn">Отправить</button>
+            
+        </form>
+
+        
+
+        
+    </body>
 </html>
